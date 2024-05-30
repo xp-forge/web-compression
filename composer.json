@@ -1,0 +1,20 @@
+{
+  "name" : "xp-forge/web-compression",
+  "type" : "library",
+  "homepage" : "http://xp-framework.net/",
+  "license" : "BSD-3-Clause",
+  "description" : "Compression I/O for the XP Framework",
+  "keywords": ["language", "module", "xp"],
+  "require" : {
+    "xp-framework/core": "^12.0 | ^11.0 | ^10.0",
+    "xp-forge/web": "dev-feature/streaming as 4.4.0",
+    "xp-forge/compression": "^1.2",
+    "php" : ">=7.4.0"
+  },
+  "require-dev" : {
+    "xp-framework/test": "^2.0 | ^1.0"
+  },
+  "autoload" : {
+    "files" : ["src/main/php/autoload.php"]
+  }
+}
